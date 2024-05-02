@@ -11,7 +11,7 @@ class Services {
       return jsonData.map((json) => ApiFetchModel.fromJson(json)).toList();
     } 
     else{
-      throw Exception('unable to fetch data ');
+      throw Exception('unable to fetch data');
     }
   }
 }
